@@ -1,0 +1,25 @@
+{
+  "name": "lab5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node netlify/functions/api.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jsdom": "^26.0.0",
+    "supertest": "^7.0.0"
+  },
+  "dependencies": {
+    "@netlify/functions": "^3.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2",
+    "serverless-http": "^3.2.0"
+  }
+}
